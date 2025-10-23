@@ -65,7 +65,7 @@ int main () {
 } 
 #include <iostream> //Questão 13
 using namespace std;
-int main2 () {
+int main () {
     int compra = 0;
     int canhão = 10000;
     int polvora = 2000;
