@@ -8,6 +8,7 @@ int main () {
     return 0;
 }
 
+
 #include <iostream> //Questão 2
 using namespace std;
 int main () {
@@ -20,6 +21,22 @@ int main () {
    quinto = numero / 5;
    cout<<dobro<<endl<<quinto;
 }
+
+
+#include <iostream> //Questão 3
+using namespace std; //Um professor resolve fazer na sua disciplina três avaliações com pesos diferentes. Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada dessas notas.
+int main () {
+    float nota1, nota2, nota3;
+    int peso1, peso2, peso3;
+    
+    cout<<"digite 3 notas";
+    cin>>nota1>>nota2>>nota3;
+    cout<<"digite 3 pesos inteiros";
+    cin>>peso1>>peso2>>peso3;
+
+    float média = (nota1*peso1 + nota2*peso2 + nota3*peso3) / (peso1+peso2+peso3);
+    cout<<média;
+} 
 
 
  #include <iostream> //Questão 9
@@ -64,6 +81,8 @@ int main () {
     cout<<um<<endl;
     resto = resto % 1;
 } 
+
+
 #include <iostream> //Questão 13
 using namespace std;
 int main () {
@@ -86,6 +105,7 @@ int main () {
     dinheiro = dinheiro % espadas;
     cout<<dinheiro<<endl;
 }
+
 
 #include <iostream> //cria um arquivo no formato de texto
 #include <fstream>
