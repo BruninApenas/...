@@ -85,3 +85,18 @@ int main2 () {
     dinheiro = dinheiro % espadas;
     cout<<dinheiro<<endl;
 }
+
+#include <iostream> //cria um arquivo no formato de texto
+#include <fstream>
+using namespace std;
+int main () {
+    ofstream arquivo ("teste900");
+
+    arquivo<<"Meu primeiro arquivo";
+
+    arquivo.close();
+
+
+
+
+}
