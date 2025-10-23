@@ -1,15 +1,14 @@
-#include <iostream>
-using namespace std;
+#include <iostream> //Questão 1
+using namespace std;  //Faça um programa que lê um número inteiro e imprime o dobro desse número.
 int main () {
-    //Faça um programa que lê um número inteiro e imprime o dobro desse número.
     int numero;
-    cout <<"digite um número inteiro";                                 
+    cout << "Digite um número inteiro";
     cin >> numero;
-    cout << numero * 2<< endl;
+    cout << numero * 2 << endl;
     return 0;
 }
 
-#include <iostream>
+#include <iostream> //Questão 2
 using namespace std;
 int main () {
     //Faça um programa que leia um número inteiro e imprima o quadrado desse número e o correspondente a sua quinta parte.
@@ -21,6 +20,8 @@ int main () {
    quinto = numero / 5;
    cout<<dobro<<endl<<quinto;
 }
+
+
  #include <iostream> //Questão 9
 using namespace std; 
 int main () {
