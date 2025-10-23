@@ -39,6 +39,17 @@ int main () {
 } 
 
 
+#include <iostream> //Questão 4
+using namespace std; //Faça um programa que possa entrar com o valor de um produto e imprima o novo valor após ter recebido um desconto de 12%.
+int main () {
+    float preço, novo_preço;
+    cout<<"Digite o preço do produto";
+    cin>>preço;
+    novo_preço = preço - (preço * 0,12);
+    cout<<novo_preço;
+}   
+
+
  #include <iostream> //Questão 9
 using namespace std; 
 int main () {
